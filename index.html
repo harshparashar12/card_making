@@ -1,0 +1,229 @@
+<html>
+    <head>
+        <title>card</title>
+        <style>
+            body{
+                background: linear-gradient(90deg,black,rgb(204,235,255),rgb(0,77,128),black);}
+
+            img{
+            float: left;
+            height: 250px;
+            width: 300px }
+
+            img:hover{
+                height: 255px;
+                width: 305px;
+                border: 2px solid black;
+                box-shadow: 2px 3px 3px darkblue;
+                transition: 1s;}
+
+            .item01{
+                width: 70%;
+                font-size: 1.2rem;
+                margin-left: 15px;
+            }
+
+            .navbar{
+                height: 80px;
+                background-color: black;
+                color: white;
+                display: flex;
+                align-items:center;
+            }
+
+            .navbar:hover{
+                transition: 1s;
+                color: red;
+            }
+
+            .nav-search{
+                display: flex;
+                justify-content: space-evenly;
+                background-color: pink;
+                width: 500px;
+                height: 40px;
+                border-radius: 4px;
+            }
+           
+            .search{
+                width: 100%;
+                font-size: 1rem;
+                border: none;
+            }
+           
+            .nav-search:hover{
+                border: 2px solid red;
+            }
+            .heading01{
+                font-size: 1.5rem;
+                padding: 1rem;
+                text-align: center;
+                color: black;
+                text-shadow: 2px 2px 2px red;
+            } 
+            .heading01:hover{
+                font-size: 1.6rem;
+                transition: 1s;
+                color: red;
+            }
+
+            .div01{
+                
+                display: grid;
+                grid-template-columns:1fr 1fr;
+                grid-template-rows:1fr 1fr;
+                 width:70vw;
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 5px 5px 5px;
+                
+            }
+            .div01:hover{
+                transition: 1s;
+            }
+
+            .item{
+                height: 300px;
+                width: 500px;
+                border-radius: 10px 10px 10px;
+                background-color: white;
+                border: 2px solid black;
+                box-shadow: 3px 3px 3px white;
+                margin: 10px;
+                text-align: center;}
+
+            .item:hover{
+                box-shadow: 5px 5px 25px red;
+                transition: 1s;
+                color: red;
+            }
+
+            .item h3:hover{
+                color: red;
+                transition: 1s;
+            }
+            
+            .foot{
+                background-color: black;
+                color: white;
+                height: 150px;
+                display: flex;
+                justify-content: space-evenly;
+            }
+
+            ul p{
+                font-weight: 700;
+            }
+            ul{
+                margin-top: 20px;
+            }
+            ul a{
+                display: block;
+                font-size: 0.85rem;
+                margin-top: 10px;
+                color: #DDDDDD;
+            }
+            .social_app{
+                font-weight: 700;
+                margin-top: 20px;
+            }
+            .logo{
+                margin: 20px;
+                margin-bottom: 100px;
+            }
+            a{
+                margin-left: 10px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="navbar">
+                <div class="item01">
+                    <a>home</a>
+                    <a>destination</a>
+                    <a>contact us</a>
+                </div>
+
+                <div class="nav-search">
+                    <input placeholder="Search Destination" class="search">
+                </div>
+                
+            </div>
+            <hr>
+            <div class="heading01">
+                <u><h1>FAMOUS WEBSERIES ON NETFLIX</h1></u>
+            </div>
+        </header>
+
+        <div class="div01">
+            <div class="item">
+                <img src="PEAKY Blinders.jpg" alt="">
+                <h3>Peaky Blinders</h3>
+                <br>
+                <div>
+                    <p>There is hardly a person who has not heard about Game of Thrones. This American TV series has conquered the world and attracts audience of different age and preferences. In brief, Game of Thrones is an adaptation of fantasy novels written by G. Martin. The original name of this series is A Song of Ice and Fire. The screen version holds the name of the first novel of this series of books called A Game of Thrones. </p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="stranger things.webp" alt="">
+                <h3>Stranger Things</h3>
+                <br>
+                <div>
+                    <p>What was the inspiration for Stranger Things? <br>
+                        A Nightmare on Elm Street <br>
+                        
+                        This is the basis for the entirety of Stranger Things, as a seemingly normal life in middle America Hawkins, Indiana is turned upside down when Will Byers vanishes, and strange monsters and alternate dimensions start suddenly popping up.</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="money heist.webp" alt="">
+                <h3>Money Heist</h3>
+                <br>
+                <div>
+                    <p>The show’s format shows the heist occurring as the number of hours into the robbery and shifts between the past and the present, giving it more time to explore every character and delve into the depths of their personalities. The stakes are extremely high and the audience gets desperate to know what happens to each one of them, because of the emotional connection that is formed with each one of them.  </p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="Game_of_Thrones_Season_6.jpeg" alt="">
+                <h3>Game Of Thrones</h3>
+                <br>
+                <div>
+                    <p>Perhaps the series’ quick success, as Game of Thrones upon debuting in 2011 became a rapid fire sensation, comes down to the fact that while it may be technically epic high fantasy, it was an accessible, relatable universe. Half the lead characters were not orcs or fairies or goblins with CGI appendages. We did have a dwarf but he instantly became a fan favourite and wasn’t a burly, axe-tossing beast.  </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <footer>
+            <div class="foot">
+                <ul>
+                    <p>contact info</p>
+                    <a>company</a>
+                    <a>about</a>
+                    <a>jobs</a>
+                </ul>
+
+                <ul>
+                    <p>for the artist</p>
+                    <a>developers</a>
+                    <a>adverting</a>
+                    <a>useful links</a>
+                </ul>
+                <div class="social_app">
+                    <p>social media handles</p>
+                    <div class="logo">
+                        <a href="https://www.instagram.com/" target="_blank"><img src="instagram-1.svg" style="width: 50px;"></a>
+                        <a href="https://www.facebook.com/" target="_blank"><img src="facebook-1.svg" style="width: 50px;"></a>
+                        <a href="https://twitter.com/" target="_blank"><img src="twitter-color.svg" style="width: 50px;"></a>
+                        <a href="https://www.whatsapp.com/" target="_blank"> <img src="whatsapp.svg" style="width: 50px;"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+            
+    </body>
+</html>
